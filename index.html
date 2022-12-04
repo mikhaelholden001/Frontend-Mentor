@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <style>
+      .attribution {
+        text-align: center;
+      }
+      .attribution a {
+        color: hsla(209, 100%, 55%, 0.638);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div><img src="/assets/images/logo.svg" alt="logo" id="logo" /></div>
+      <div class="links" data-visible="false">
+        <button class="exit-buttom" area-controls="links" aria-expanded="false">
+          <span>close</span>
+        </button>
+        <ul>
+          <li class="short"><a href="">Home</a></li>
+          <li class="short"><a href="">New</a></li>
+          <li class="short"><a href="">Popular</a></li>
+          <li class="short"><a href="">Trending</a></li>
+          <li class="short"><a href="">Categories</a></li>
+        </ul>
+      </div>
+
+      <button class="icon-image" area-controls="links" aria-expanded="false">
+        <span>menu</span>
+      </button>
+    </nav>
+    <div class="rest" active="false"><span>rest</span></div>
+
+    <section>
+      <div class="first">
+        <div>
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="" id="ordi" />
+        </div>
+        <div class="bottom-image">
+          <div class="big-title">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div class="text">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second">
+        <h1>New</h1>
+        <div class="part">
+          <div class="one">
+            <h2 class="second-h2">Hydrogen VS Electric</h2>
+            <p>Cars Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="two">
+            <h2 class="second-h2">The Downsidesof AI Artistry</h2>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="third">
+            <h2 class="second-h2">Is VC funding Drying Up?</h2>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bottom">
+      <div class="bottom-1">
+        <img src="/assets/images/image-retro-pcs.jpg" alt="" />
+        <div id="inside1">
+          <h2 class="number">01</h2>
+          <h2 class="small-title">Reviving Retro PCs</h2>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="bottom-2">
+        <img src="/assets/images/image-top-laptops.jpg" alt="" />
+        <div id="inside2">
+          <h2 class="number">02</h2>
+          <h2 class="small-title">Top 10 Laptops of 2022</h2>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="bottom-3">
+        <img src="/assets/images/image-gaming-growth.jpg" alt="" />
+        <div id="inside3">
+          <h2 class="number">03</h2>
+          <h2 class="small-title">The Growth of Gaming</h2>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mikhael Holden</a>.
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
